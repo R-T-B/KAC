@@ -42,7 +42,7 @@ namespace KAC
                         UseShellExecute = true,
                         FileName = "autoexec_win.cmd",
                         CreateNoWindow = true,
-                        WorkingDirectory = KSPUtil.ApplicationRootPath + "/GameData/KAC/"
+                        WorkingDirectory = KSPUtil.ApplicationRootPath + "/GameData/KAC/PluginData/"
                     }
                         }.Start();
                         KAC.patched = true;
@@ -56,7 +56,7 @@ namespace KAC
                         UseShellExecute = true,
                         FileName = "autoexec_mac.sh",
                         CreateNoWindow = true,
-                        WorkingDirectory = KSPUtil.ApplicationRootPath + "/GameData/KAC/"
+                        WorkingDirectory = KSPUtil.ApplicationRootPath + "/GameData/KAC/PluginData/"
                     }
                         }.Start();
                         KAC.patched = true;
@@ -70,7 +70,7 @@ namespace KAC
                         UseShellExecute = true,
                         FileName = "autoexec_lin.sh",
                         CreateNoWindow = true,
-                        WorkingDirectory = KSPUtil.ApplicationRootPath + "/GameData/KAC/"
+                        WorkingDirectory = KSPUtil.ApplicationRootPath + "/GameData/KAC/PluginData/"
                     }
                         }.Start();
                         KAC.patched = true;
